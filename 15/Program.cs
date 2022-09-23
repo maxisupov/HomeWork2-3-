@@ -8,5 +8,13 @@ if ((Date >= 1) && (Date <= 5))
 }
 else
 {
-    Console.WriteLine("Выходной день");
+    if ((Date == 6) || (Date ==7))
+    {
+        Console.WriteLine("Выходной день");
+    }
+    else
+    {
+        Console.WriteLine("Такого дня недели не существует.");
+    }
+   
 }
